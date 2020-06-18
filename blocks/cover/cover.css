@@ -1,0 +1,31 @@
+@import url(./__card/cover__card.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__background/cover__background.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  margin: 0 0 92px 0;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% + 96px);
+    margin: 0 0 92px -48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: calc(100% + 32px);
+    margin: 0 0 64px -16px;
+  }
+}

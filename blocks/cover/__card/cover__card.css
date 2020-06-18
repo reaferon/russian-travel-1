@@ -1,0 +1,30 @@
+.cover__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 740px;
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .cover__card {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__card {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__card {
+    min-height: 200px;
+  }
+}
