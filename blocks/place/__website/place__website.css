@@ -1,4 +1,5 @@
 .place__website {
+    grid-area: link;
     color: #fff;
     font-size: 18px;
     line-height: 22px;

@@ -35,7 +35,8 @@
 @media screen and (max-width: 600px) {
   .place {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-column-gap: 0;
+    grid-row-gap: 32px;
     grid-template-areas:
     "title"
     "img"
