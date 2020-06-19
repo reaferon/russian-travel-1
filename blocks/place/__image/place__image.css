@@ -8,5 +8,5 @@
     .place__image {
       width: calc(100% + 32px);
       margin-left: -16px;
-    }
+  }
 }
