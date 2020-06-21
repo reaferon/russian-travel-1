@@ -7,7 +7,7 @@
 .cover {
   margin: 0 0 92px 0;
   box-sizing: border-box;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

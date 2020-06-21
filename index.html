@@ -3,16 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Путешестие по России">
     <meta name="keywords" content="Россия, красивые места, путешествие по России">
     <meta name="author" content="Кирилл Трунов">
     <title>Путешествие По России</title>
-    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
     <link rel="stylesheet" type="text/css" href="pages/index.css">
 </head>
-
-<body>
 
     <body class="page">
 
@@ -29,8 +26,11 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="lead__image" src="images/lead-polka.jpg" alt="фото плацкарта">
-                <p class="lead__caption">Ваша полка — верхняя</p>
+                <figure class="lead__fig">
+                    <img class="lead__image" src="images/lead-polka.jpg" alt="фото плацкарта">
+                    <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+                </figure>
+                
             </section>
 
             <section class="intro">
@@ -204,19 +204,17 @@
         </main>
 
         <footer class="footer">
-            <nav class="footer__columns">
+            <nav>
                 <ul class="footer__links">
-                    <li class="footer__item"><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-                    <li class="footer__item"><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-                    <li class="footer__item"><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-                    <li class="footer__item"><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-                    </li>
-                    <li class="footer__item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-                    </li>
+                    <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+                    <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+                    <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+                    <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+                    <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
                 </ul>
-                <p class="footer__copyright">&copy; 2020. Трунов Кирилл</p>
             </nav>
+            <p class="footer__copyright">&copy; 2020. Трунов Кирилл</p>
         </footer>
-        
+
     </body>
 </html>
