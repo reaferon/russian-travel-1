@@ -8,12 +8,14 @@
   margin: 0 0 92px 0;
   box-sizing: border-box;
   font-family: "Inter", "Arial", sans-serif;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: calc(100% + 96px);
-    margin: 0 0 92px -48px;
+    margin-bottom: 92px;
+    left: -48px;
   }
 }
 
@@ -21,13 +23,14 @@
   .cover {
     margin-bottom: 88px;
     width: calc(100% + 48px);
-    margin: 0 0 88px -24px;
+    left: -24px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .cover {
     width: calc(100% + 32px);
-    margin: 0 0 64px -16px;
+    margin-bottom: 64px;
+    left: -16px;
   }
 }
